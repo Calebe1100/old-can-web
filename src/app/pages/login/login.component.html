@@ -17,11 +17,15 @@
   <p *ngIf="error" class="error">
     {{ error }}
   </p>
-
-  <div class="button">
-    <button type="submit" mat-button>Login</button>
-  </div>
-
+  
+<div class="button-container">
+    <div>
+        <button class="button" type="menu" (click)="OnSignUp()">Sign Up</button>
+    </div>
+    <div class="button">
+        <button type="submit" mat-button>Login</button>
+    </div>
+</div>
 </form>
 </mat-card-content>
 </mat-card>
