@@ -6,9 +6,9 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { PagesModule } from './pages/pages.module';
 import { AppRoutingModule } from './app.routes';
 import { AppComponent } from './app.component';
+import { PagesModule } from './pages/pages.modules';
 
 @NgModule({
   declarations: [AppComponent],
